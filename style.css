@@ -1,11 +1,11 @@
 :root {
-    --bg-color: #050505;
-    --text-color: #ffffff;
-    --text-muted: #a1a1a1;
-    --primary-color: #f26122; /* Orange from the reference */
-    --primary-hover: #d9531e;
-    --glass-bg: rgba(20, 20, 20, 0.4);
-    --glass-border: rgba(255, 255, 255, 0.1);
+    --bg-color: #EEF0E8;
+    --text-color: #243026;
+    --text-muted: #5F6B61;
+    --primary-color: #879B88; /* Sage accent */
+    --primary-hover: #5F6B61;
+    --glass-bg: rgba(255, 255, 255, 0.6);
+    --glass-border: #D2D9D0;
     --font-sans: 'Times New Roman', Times, serif;
     --font-display: 'Times New Roman', Times, serif;
 }
@@ -96,7 +96,7 @@ body {
 }
 
 .nav-links a:hover {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(36, 48, 38, 0.1);
 }
 
 .nav-btn {
@@ -132,7 +132,7 @@ main {
     line-height: 1;
     margin: 0;
     text-align: center;
-    background: linear-gradient(180deg, #fff 0%, rgba(255,255,255,0.4) 100%);
+    background: linear-gradient(180deg, var(--text-color) 0%, var(--primary-color) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -219,7 +219,7 @@ main {
     border: 1px solid var(--glass-border);
 }
 .btn-secondary:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+    background: rgba(36, 48, 38, 0.1);
 }
 
 .hero-right {
@@ -254,7 +254,7 @@ main {
     border-top: 1px solid var(--glass-border);
     border-bottom: 1px solid var(--glass-border);
     padding: 1.5rem 0;
-    background: rgba(0, 0, 0, 0.3);
+    background: #DCE4D8;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 }
@@ -411,10 +411,10 @@ main {
     font-weight: 600;
 }
 .highlight-card {
-    background: rgba(242, 97, 34, 0.1);
+    background: rgba(135, 155, 136, 0.15);
     padding: 1.5rem;
     border-radius: 15px;
-    border: 1px solid rgba(242, 97, 34, 0.3);
+    border: 1px solid rgba(135, 155, 136, 0.4);
     border-left: none;
 }
 .highlight-card::before {
@@ -432,7 +432,7 @@ main {
 }
 
 .skill-category {
-    background: rgba(0,0,0,0.2);
+    background: rgba(255, 255, 255, 0.4);
     padding: 2rem;
     border-radius: 20px;
     border: 1px solid var(--glass-border);
@@ -473,7 +473,7 @@ main {
     font-family: var(--font-display);
     font-size: clamp(3rem, 8vw, 6rem);
     margin: 0;
-    background: linear-gradient(180deg, #fff 0%, rgba(255,255,255,0.2) 100%);
+    background: linear-gradient(180deg, var(--text-color) 0%, var(--primary-color) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
