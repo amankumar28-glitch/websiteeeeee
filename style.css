@@ -6,8 +6,8 @@
     --primary-hover: #d9531e;
     --glass-bg: rgba(20, 20, 20, 0.4);
     --glass-border: rgba(255, 255, 255, 0.1);
-    --font-sans: 'Inter', sans-serif;
-    --font-display: 'Oswald', sans-serif;
+    --font-sans: 'Times New Roman', Times, serif;
+    --font-display: 'Times New Roman', Times, serif;
 }
 
 html {
